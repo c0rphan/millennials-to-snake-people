@@ -26,6 +26,16 @@ function replaceText(v)
     v = v.replace(/\b(M|m)illenial(s)?\b/g, "$1illennial$2");
     v = v.replace(/\b(M|m)ilennial(s)?\b/g, "$1illennial$2");
     v = v.replace(/\b(M|m)ilenial(s)?\b/g, "$1illennial$2");
+    v = v.replace(/\b(A|a)xin(g)?\b/g, "$skin$2");
+    
+    // Arsken
+    v = v.replace(/\b(A|a)skin(?:g)?\b/g, "$1rsken");
+    
+    // Baint
+    v = v.replace(
+        /\b(?:Are not)|(?:Am not)|(?:Is not)|(?:[A-Z].*ren't)|(?:[A-Z]*.'re not)|(?:Isn't)\b/g,
+        "Baint"
+    );
 
     // Millennial Generation
     v = v.replace(
