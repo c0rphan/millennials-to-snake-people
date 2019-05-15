@@ -1,9 +1,9 @@
 {
-	"manifest_version": 2,
+	"manifest_version": 1,
 
-	"name": "Millennials to Snake People",
-    "short_name": "Snake People",
-	"description": "Replaces the text 'Millennial' with 'Snake People'.",
+	"name": "Redwall Mole Speech",
+	"short_name": "Mole Speech",
+	"description": "Replaces text with mole speech equivalents.",
 	"author": "Eric Bailey",
 	"version": "2.3",
 
